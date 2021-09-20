@@ -1,0 +1,77 @@
+/* Styles */
+
+body {
+  font-family: monospace;
+}
+
+@media all and (min-width: 945px) {
+  body {
+    display: flex;
+  }
+}
+
+h1{
+  font-size: 1.75em;
+  margin-top: 0;
+}
+
+form {
+  margin: 1em;
+}
+
+input {
+  display: block;
+  margin: .25em 0 1em 0;
+  font-size: 1.2em;
+  padding: .5em .15em;
+}
+
+input#run {
+  cursor: pointer;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+div#payment-schedule {
+  margin: 1em;
+}
+
+div#payment-schedule h1 {
+  text-align: center;
+}
+
+th {
+  text-align: right;
+  padding: 0 1em 1em 1em;
+  width: 9em;
+  font-size: 1.2em;
+}
+
+td {
+  text-align: right;
+  padding: 1em;
+}
+
+@media all and (max-width: 650px) {
+
+  body {
+    padding: 0;
+  }
+
+  div#payment-schedule {
+    margin: 0;
+  }
+
+  div#payment-schedule table th {
+    font-size: 3.5vw;
+    padding: 0 .25em 1em .25em;
+  }
+
+  div#payment-schedule table td {
+    font-size: 3.05vw;
+    padding: .25em;
+  }
+
+}
